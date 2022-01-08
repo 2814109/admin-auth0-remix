@@ -1,3 +1,7 @@
+# Attention
+
+env ⇒ AUTH0_CALLBACK_URL=http://localhost:3000/admin/callback
+
 # PORT 3003 INTERNAL 8004
 
 # Welcome to Remix!

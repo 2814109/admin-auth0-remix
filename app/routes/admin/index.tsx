@@ -4,7 +4,7 @@ import { useLoaderData } from "remix";
 
 export const loader: LoaderFunction = async ({ request }) => {
   const user = await authenticator.isAuthenticated(request, {
-    failureRedirect: "/login",
+    failureRedirect: "/admin/login",
   });
   return { user };
 };
